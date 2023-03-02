@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cabeçalho */
+
+
+/* Topo e Introdução */
+main{
+    background-color: black;
+}
+
+.bunner{
+    background-image: url("../imagens/bunner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.introdução{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.introdução > p{
+    line-height: 2em;
+    text-align: left;
+    margin: 20px;
+}
+
+/* Icons e opções */
+.principal{
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+.opçoes{
+    max-width: 95vw;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+/* Icones geral */
+.icons {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.icon .circle{
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+    height: 50px;
+    width: 50px;
+    border: 8px solid black;
+    border-radius: 50%;
+}
+
+.icon .circle:hover{
+    background-color: white;
+    border: 8px solid white;
+    transform: translate(0px, -3px);
+    box-shadow: 3px 3px 8px black;
+    transition: 0.8s;
+}
+
+/* personagem */
+.icon div#personagem{
+    background-image: url("../imagens/icons/personagens.png");
+}
+
+.icon div#personagem:hover{
+    background-image: url("../imagens/icons/personagens_alter.png");
+}
+
+/* Pericias */
+.icon div#pericia{
+    background-image: url("../imagens/icons/pericias_poderes.png");
+}
+
+.icon div#pericia:hover{
+    background-image: url("../imagens/icons/pericias_poderes_alter.png");
+}
+
+/* Equipamento */
+.icon div#equipamento{
+    background-image: url("../imagens/icons/equipamentos.png");
+}
+
+.icon div#equipamento:hover{
+    background-image: url("../imagens/icons/equipamentos_alter.png");
+}
+
+/* Magias */
+.icon div#magia{
+    background-image: url("../imagens/icons/magias.png");
+}
+
+.icon div#magia:hover{
+    background-image: url("../imagens/icons/magias_alter.png");
+}
+
+/* Jogando */
+.icon div#jogando{
+    background-image: url("../imagens/icons/jogando.png");
+}
+
+.icon div#jogando:hover{
+    background-image: url("../imagens/icons/jogando_alter.png");
+}
+
+/* Mestre */
+.icon div#mestre{
+    background-image: url("../imagens/icons/mestre.png");
+}
+
+.icon div#mestre:hover{
+    background-image: url("../imagens/icons/mestre_alter.png");
+}
+
+/* Ameaças */
+.icon div#ameaças{
+    background-image: url("../imagens/icons/ameaças.png");
+}
+
+.icon div#ameaças:hover{
+    background-image: url("../imagens/icons/ameaças_alter.png");
+}
+/* Recompensas */
+.icon div#recompensas{
+    background-image: url("../imagens/icons/recompensas.png");
+}
+
+.icon div#recompensas:hover{
+    background-image: url("../imagens/icons/recompensas_alter.png");
+}
+
+/* Arton */
+.icon div#arton{
+    background-image: url("../imagens/icons/arton.png");
+}
+
+.icon div#arton:hover{
+    background-image: url("../imagens/icons/arton_alter.png");
+}
