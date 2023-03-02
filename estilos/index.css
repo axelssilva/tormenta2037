@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'Tormenta', sans-serif;
+    src: url('../fontes/Tormenta20.ttf') format('truetype');
+}
 
 * {
     margin: 0;
@@ -7,7 +11,10 @@
 }
 
 /* Cabeçalho */
-
+header {
+    height: 50px;
+    background-color: black;
+}
 
 /* Topo e Introdução */
 main{
@@ -15,12 +22,15 @@ main{
 }
 
 .bunner{
-    background-image: url("../imagens/bunner.jpg");
-    background-position: center;
+    background-color: darkred;
+    background-image: url("../imagens/fundo.png");
+    background-position: center top;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 300px;
+    border-top: 3px solid darkred;
+    border-bottom: 3px solid darkred;
 }
 
 .introdução{
@@ -30,16 +40,31 @@ main{
 }
 
 .introdução > p{
-    line-height: 2em;
-    text-align: left;
-    margin: 20px;
+    line-height: 1.5em;
+    text-align: justify;
+    margin: auto;
+    max-width: 1000px;
+    font-size: 1em;
+    padding: 10px;
+
 }
 
+.introdução h1{
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Tormenta';
+    padding: 30px;
+}
 /* Icons e opções */
 .principal{
     max-width: 1200px;
     margin: auto;
     background-color: white;
+    background-image: url("../imagens/background.png");
+    background-size: cover;
+    background-position: center top;
+    border-left: 3px solid darkred;
+    border-right: 3px solid darkred;
 }
 .opçoes{
     max-width: 95vw;
@@ -47,7 +72,21 @@ main{
     text-align: center;
     display: flex;
     flex-direction: column;
+    height: 400px;
+    padding: 50px;
 }
+
+.opçoes h1 {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.opçoes p {
+    font: 2.5em;
+    margin: 30px;
+}
+
 /* Icones geral */
 .icons {
     display: flex;
@@ -56,7 +95,12 @@ main{
     justify-content: center;
 }
 
+.icon {
+    position: relative;
+}
+
 .icon .circle{
+    position: relative;
     background-color: black;
     background-size: cover;
     background-position: center center;
@@ -67,11 +111,11 @@ main{
 }
 
 .icon .circle:hover{
-    background-color: white;
-    border: 8px solid white;
+    background-color: black;
+    border: 8px solid black;
     transform: translate(0px, -3px);
     box-shadow: 3px 3px 8px black;
-    transition: 0.8s;
+    transition: 0.5s;
 }
 
 /* personagem */
@@ -83,6 +127,10 @@ main{
     background-image: url("../imagens/icons/personagens_alter.png");
 }
 
+section.perso:hover .texto{
+    left: 0px;
+}
+
 /* Pericias */
 .icon div#pericia{
     background-image: url("../imagens/icons/pericias_poderes.png");
@@ -90,6 +138,10 @@ main{
 
 .icon div#pericia:hover{
     background-image: url("../imagens/icons/pericias_poderes_alter.png");
+}
+
+section.peri:hover .texto{
+    left: -96px;
 }
 
 /* Equipamento */
@@ -101,6 +153,10 @@ main{
     background-image: url("../imagens/icons/equipamentos_alter.png");
 }
 
+section.equi:hover .texto {
+    left: -192px;
+}
+
 /* Magias */
 .icon div#magia{
     background-image: url("../imagens/icons/magias.png");
@@ -108,6 +164,10 @@ main{
 
 .icon div#magia:hover{
     background-image: url("../imagens/icons/magias_alter.png");
+}
+
+section.magi:hover .texto{
+    left: -288px;
 }
 
 /* Jogando */
@@ -119,6 +179,9 @@ main{
     background-image: url("../imagens/icons/jogando_alter.png");
 }
 
+section.jog:hover .texto{
+    left: -384px;
+}
 /* Mestre */
 .icon div#mestre{
     background-image: url("../imagens/icons/mestre.png");
@@ -126,6 +189,10 @@ main{
 
 .icon div#mestre:hover{
     background-image: url("../imagens/icons/mestre_alter.png");
+}
+
+section.mes:hover .texto{
+    left: -480px;
 }
 
 /* Ameaças */
@@ -136,6 +203,11 @@ main{
 .icon div#ameaças:hover{
     background-image: url("../imagens/icons/ameaças_alter.png");
 }
+
+section.ame:hover .texto{
+    left: -576px;
+}
+
 /* Recompensas */
 .icon div#recompensas{
     background-image: url("../imagens/icons/recompensas.png");
@@ -143,6 +215,10 @@ main{
 
 .icon div#recompensas:hover{
     background-image: url("../imagens/icons/recompensas_alter.png");
+}
+
+section.reco:hover .texto{
+    left: -672px;
 }
 
 /* Arton */
@@ -153,3 +229,49 @@ main{
 .icon div#arton:hover{
     background-image: url("../imagens/icons/arton_alter.png");
 }
+
+section.art:hover .texto{
+    left: -768px;
+}
+
+
+
+
+
+
+
+
+
+section.icon  .texto{
+    display: none;
+}
+
+section.icon:hover .texto {
+    display: block;
+    position: absolute;
+    top: 60px;
+    background-color: black;
+    height: 180px;
+    width: 834px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+
+
+
+.texto h2{
+    color: white;
+    margin: ;
+}
+
+footer {
+    height: 50px;
+    border-top: 3px solid darkred;
+    background-color: black;
+}
+
+
