@@ -12,6 +12,6 @@ iframe{
     flex-flow: row wrap;
 }
 
-.circle{
+.principal .circle{
     margin: 20px;
 }
