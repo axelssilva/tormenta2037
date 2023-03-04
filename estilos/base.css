@@ -14,6 +14,8 @@ header{
     justify-content: space-between  ;
     background-color: black;
     height: 40px;
+    position: sticky;
+    top: 0;
     padding: 10px 15px;
 }
 
@@ -23,13 +25,17 @@ header img{
 }
 main{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     background-image: url("../imagens/background.png");
     background-position: center center;
     background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
 }
 
 .principal {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     width: 1000px;
     margin: auto;
@@ -40,6 +46,16 @@ main{
     border-right: 3px solid black;
 }
 
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-left: 8px;
+    margin-top: 3px;
+    position: fixed;
+}
+
 .circle {
     background-color: black;
     background-size: cover;
@@ -47,7 +63,6 @@ main{
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    margin: 8px;
     border: 7px solid black;
 }
 

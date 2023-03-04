@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+.cons{
+    margin: auto;
+}
+.seçoes {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 20px    ;
+}
+
+hr {
+    background-color:  black;
+     height: 3px;
+     margin: 20px 0px;
+ }
+
+div#atributos{
+    background-image: url("../../imagens/icons/atributos.png");
+}
+
+div#raças{
+    background-image: url("../../imagens/icons/raças.png");
+}
+
+div#classes{
+    background-image: url("../../imagens/icons/classes.png");
+}
+
+div#origens{
+    background-image: url("../../imagens/icons/origens.png");
+}
+
+div#deuses{
+    background-image: url("../../imagens/icons/deuses.png");
+}
+
+div#toques{
+    background-image: url("../../imagens/icons/toques.png");
+}
+
+div#atributos:hover{
+    background-image: url("../../imagens/icons/atributos_alter.png");
+}
+
+div#raças:hover{
+    background-image: url("../../imagens/icons/raças_alter.png");
+}
+
+div#classes:hover{
+    background-image: url("../../imagens/icons/classes_alter.png");
+}
+
+div#origens:hover{
+    background-image: url("../../imagens/icons/origens_alter.png");
+}
+
+div#deuses:hover{
+    background-image: url("../../imagens/icons/deuses_alter.png");
+}
+
+div#toques:hover{
+    background-image: url("../../imagens/icons/toques_alter.png");
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+iframe{
+    height: 80vh;
+    width: 980px;
+    margin: auto;
+    border: 3px solid black;
+}
+
+.raças_links {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.circle{
+    margin: 20px;
+}

@@ -1,0 +1,70 @@
+@charset "UTF-";
+@font-face {
+    font-family: 'tormenta';
+    src: url('../fontes/Tormenta.ttf') format('truetype');
+}
+
+:root {
+    --destaque: #cf2a29;
+    --tormenta: 'tormenta',serif;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: var(--tormenta);
+    color: var(--destaque);
+    text-align: center;
+    margin: 30px;
+    font-size: 2.5em;
+}
+
+p {
+    margin: 20px;
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+ol {
+    line-height: 1.5em;
+    font-size: 1.1em;
+    margin: 10px 60px;
+    list-style: none;
+}
+
+ul {
+    line-height: 1.5em;
+    font-size: 1.1em;
+    margin: 10px 60px;
+}
+
+h2 {
+    font-family: var(--tormenta);
+    color: var(--destaque);
+    margin-left: 40px;
+}
+
+strong {
+    color: var(--destaque);
+}
+
+article{
+    margin: 20px;
+    line-height: 1.2em;
+    font-size: 1.2em;
+    font-style: italic ;
+}
+
+.citaçao{
+    line-height: 1.5em;
+    font-size: 1em;
+    font-style: italic;
+}
+
+aside{
+    text-align: right;
+    font-style: italic;
+}
