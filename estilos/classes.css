@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+.classes {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    margin: 50px 120px;
+}
