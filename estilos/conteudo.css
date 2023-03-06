@@ -80,3 +80,10 @@ h3 {
     font-size: 1.5em;
     font-family: var(--tormenta);
 }
+
+h4 {
+    color: var(--destaque);
+    margin-left: 40px;
+    font-size: 1.3em;
+    font-family: var(--tormenta);
+}
