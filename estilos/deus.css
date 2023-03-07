@@ -1,0 +1,22 @@
+.inicio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inicio img {
+    width: 100px;
+}
+
+.inicio h1 {
+    margin: auto;
+}
+
+.deuses {
+    display: flex;
+
+}
+
+.deuses img{
+    width: 50px;
+}
