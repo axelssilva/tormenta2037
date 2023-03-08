@@ -19,3 +19,13 @@ iframe{
     gap: 15px;
     padding: 0px 40px;
 }
+
+div#aharadak {
+    background-image: url("../imagens/gods/aharadak.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+div#allihanna {
+    background-image: url("../imagens/gods/allihanna.jpeg");
+}
