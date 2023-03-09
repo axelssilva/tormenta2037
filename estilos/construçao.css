@@ -1,13 +1,11 @@
 @charset "UTF-8";
 
-.cons{
-    margin: auto;
-}
 .seçoes {
     display: flex;
+    justify-content: center;
     gap: 50px;
     align-items: center;
-    margin-top: 20px    ;
+    margin-top: 20px;
 }
 
 hr {
@@ -16,27 +14,26 @@ hr {
      margin: 20px 0px;
  }
 
-div#atributos{
-    background-image: url("../../imagens/icons/atributos.png");
+.seçoes div#atributos {
+    background-image: url("../imagens/icons/atributos.png");
 }
 
-div#raças{
-    background-image: url("../../imagens/icons/raças.png");
+.seçoes div#raças {
+    background-image: url("../imagens/icons/raças.png");
 }
 
-div#classes{
-    background-image: url("../../imagens/icons/classes.png");
+.seçoes div#classes {
+    background-image: url("../imagens/icons/classes.png");
 }
 
-div#origens{
-    background-image: url("../../imagens/icons/origens.png");
+.seçoes div#origens {
+    background-image: url("../imagens/icons/origens.png");
 }
 
-div#deuses{
-    background-image: url("../../imagens/icons/deuses.png");
+.seçoes div#deuses {
+    background-image: url("../imagens/icons/deuses.png");
 }
 
-div#toques{
-    background-image: url("../../imagens/icons/toques.png");
+.seçoes div#toques {
+    background-image: url("../imagens/icons/toques.png");
 }
-
