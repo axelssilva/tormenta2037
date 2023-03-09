@@ -40,26 +40,3 @@ div#toques{
     background-image: url("../../imagens/icons/toques.png");
 }
 
-div#atributos:hover{
-    background-image: url("../../imagens/icons/atributos_alter.png");
-}
-
-div#raças:hover{
-    background-image: url("../../imagens/icons/raças_alter.png");
-}
-
-div#classes:hover{
-    background-image: url("../../imagens/icons/classes_alter.png");
-}
-
-div#origens:hover{
-    background-image: url("../../imagens/icons/origens_alter.png");
-}
-
-div#deuses:hover{
-    background-image: url("../../imagens/icons/deuses_alter.png");
-}
-
-div#toques:hover{
-    background-image: url("../../imagens/icons/toques_alter.png");
-}
