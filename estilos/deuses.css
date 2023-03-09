@@ -17,7 +17,8 @@ iframe{
     display: flex;
     flex-flow: row wrap;
     gap: 15px;
-    padding: 0px 40px;
+    padding: 0px 100px;
+    margin-bottom: 30px;
 }
 
 div#aharadak {
@@ -28,4 +29,80 @@ div#aharadak {
 
 div#allihanna {
     background-image: url("../imagens/gods/allihanna.jpeg");
+}
+
+div#arsenal{
+    background-image: url("../imagens/gods/arsenal.jpeg");
+}
+
+div#azgher{
+    background-image: url("../imagens/gods/asgher.jpeg");
+}
+
+div#corvo{
+    background-image: url("../imagens/gods/cor");
+}
+
+div#hyninn{
+    background-image: url("../imagens/gods/Hyninn.jpeg");
+}
+
+div#kally{
+    background-image: url("../imagens/gods/Kallyadranoch.jpeg");
+}
+
+div#khalmyr{
+    background-image: url("../imagens/gods/Khalmyr.jpeg");
+}
+
+div#lena{
+    background-image: url("../imagens/gods/Lena.jpeg");
+}
+
+div#lin{
+    background-image: url("../imagens/gods/T20\ Lin\ wu.jpeg");
+}
+
+div#marah{
+    background-image: url("../imagens/gods/Marah.jpeg");
+}
+
+div#mega{
+    background-image: url("../imagens/gods/Megalokk.jpeg");
+}
+
+div#nimb{
+    background-image: url("../imagens/gods/T20\ Nimb.jpeg");
+}
+
+div#oceano{
+    background-image: url(../imagens/gods/Oceano.jpeg);
+}
+
+div#sszzaas{
+    background-image: url("../imagens/gods/Sszzaas.jpeg");
+}
+
+div#tanna{
+    background-image: url("../imagens/gods/Tanna-Toh.jpeg");
+}
+
+div#tenebra{
+    background-image: url("../imagens/gods/Tenebra.jpeg");
+}
+
+div#twhor{
+    background-image: url("../imagens/gods/Thwor.jpeg");
+}
+
+div#thy{
+    background-image: url("../imagens/gods/Thyatis.jpeg");
+}
+
+div#valkaria{
+    background-image: url("../imagens/gods/Valkaria.jpeg");
+}
+
+div#wynna{
+    background-image: url("../imagens/gods/download.jpeg");
 }
