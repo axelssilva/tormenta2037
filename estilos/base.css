@@ -68,39 +68,39 @@ main{
 }
 
 div#personagem{
-    background-image: url("../imagens/icons/personagens.png");
+    background-image: url("../imagens/icons/personagens.svg");
 }
 
 div#pericia{
-    background-image: url("../imagens/icons/pericias_poderes.png");
+    background-image: url("../imagens/icons/pericias_poderes.svg");
 }
 
 div#equipamento {
-    background-image: url("../imagens/icons/equipamentos.png");
+    background-image: url("../imagens/icons/equipamentos.svg");
 }
 
 div#magia {
-    background-image: url("../imagens/icons/magias.png");
+    background-image: url("../imagens/icons/magias.svg");
 }
 
 div#jogando {
-    background-image: url("../imagens/icons/jogando.png");
+    background-image: url("../imagens/icons/jogando.svg");
 }
 
 div#mestre {
-    background-image: url("../imagens/icons/mestre.png");
+    background-image: url("../imagens/icons/mestre.svg");
 }
 
 div#ameaças {
-    background-image: url("../imagens/icons/ameaças.png");
+    background-image: url("../imagens/icons/ameaças.svg");
 }
 
 div#recompensas{
-    background-image: url("../imagens/icons/recompensas.png");
+    background-image: url("../imagens/icons/recompensas.svg");
 }
 
 div#arton {
-    background-image: url("../imagens/icons/arton.png");
+    background-image: url("../imagens/icons/arton.svg");
 }
 
 
@@ -109,37 +109,37 @@ div#arton {
 }
 
 div#personagem:hover {
-    background-image: url("../imagens/icons/personagens_alter.png");
+    background-image: url("../imagens/icons/personagens_alter.svg");
 }
 
 div#pericia:hover{
-    background-image: url("../imagens/icons/pericias_poderes_alter.png");
+    background-image: url("../imagens/icons/pericias_poderes_alter.svg");
 }
 
 div#equipamento:hover{
-    background-image: url("../imagens/icons/equipamentos_alter.png");
+    background-image: url("../imagens/icons/equipamentos_alter.svg");
 }
 
 div#magia:hover{
-    background-image: url("../imagens/icons/magias_alter.png");
+    background-image: url("../imagens/icons/magias_alter.svg");
 }
 
 div#jogando:hover{
-    background-image: url("../imagens/icons/jogando_alter.png");
+    background-image: url("../imagens/icons/jogando_alter.svg");
 }
 
 div#mestre:hover{
-    background-image: url("../imagens/icons/mestre_alter.png");
+    background-image: url("../imagens/icons/mestre_alter.svg");
 }
 
 div#ameaças:hover{
-    background-image: url("../imagens/icons/ameaças_alter.png");
+    background-image: url("../imagens/icons/ameaças_alter.svg");
 }
 
 div#recompensas:hover{
-    background-image: url("../imagens/icons/recompensas_alter.png");
+    background-image: url("../imagens/icons/recompensas_alter.svg");
 }
 
 div#arton:hover{
-    background-image: url("../imagens/icons/arton_alter.png");
+    background-image: url("../imagens/icons/arton_alter.svg");
 }

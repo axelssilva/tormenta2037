@@ -15,49 +15,49 @@ hr {
  }
 
 .seçoes div#atributos {
-    background-image: url("../imagens/icons/atributos.png");
+    background-image: url("../imagens/icons/atributos.svg");
 }
 
 .seçoes div#raças {
-    background-image: url("../imagens/icons/raças.png");
+    background-image: url("../imagens/icons/raças.svg");
 }
 
 .seçoes div#classes {
-    background-image: url("../imagens/icons/classes.png");
+    background-image: url("../imagens/icons/classes.svg");
 }
 
 .seçoes div#origens {
-    background-image: url("../imagens/icons/origens.png");
+    background-image: url("../imagens/icons/origens.svg");
 }
 
 .seçoes div#deuses {
-    background-image: url("../imagens/icons/deuses.png");
+    background-image: url("../imagens/icons/deuses.svg");
 }
 
 .seçoes div#toques {
-    background-image: url("../imagens/icons/toques.png");
+    background-image: url("../imagens/icons/toques.svg");
 }
 
 .seçoes div#atributos:hover {
-    background-image: url("../imagens/icons/atributos_alter.png");
+    background-image: url("../imagens/icons/atributos_alter.svg");
 }
 
 .seçoes div#raças:hover {
-    background-image: url('../imagens/icons/raças_alter.png');
+    background-image: url('../imagens/icons/raças_alter.svg');
 }
 
 .seçoes div#classes:hover {
-    background-image: url("../imagens/icons/classes_alter.png");
+    background-image: url("../imagens/icons/classes_alter.svg");
 }
 
 .seçoes div#origens:hover {
-    background-image: url("../imagens/icons/origens_alter.png");
+    background-image: url("../imagens/icons/origens_alter.svg");
 }
 
 .seçoes div#deuses:hover {
-    background-image: url("../imagens/icons/deuses_alter.png");
+    background-image: url("../imagens/icons/deuses_alter.svg");
 }
 
 .seçoes div#toques:hover {
-    background-image: url("../imagens/icons/toques_alter.png");
+    background-image: url("../imagens/icons/toques_alter.svg");
 }
