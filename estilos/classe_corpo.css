@@ -1,6 +1,6 @@
 :root{
     --destaque: #cf2a29;
-    --titulo: #f2c671
+    --titulo: #f2c671;
 }
 
 .separaçao{
@@ -52,4 +52,9 @@ tbody > tr:nth-child(even){
     font-size: 1.2em;
     color: var(--titulo);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa strong{
+    color: var(--titulo);
+    font-weight: bold;
 }
