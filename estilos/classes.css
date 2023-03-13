@@ -8,3 +8,75 @@
     gap: 30px;
     margin: auto;
 }
+
+.classes #arcanista {
+    background-image: url("../imagens/classes/arcanista.svg");
+}
+
+.classes #barbaro {
+    background-image: url("../imagens/classes/barbaro.svg");
+}
+
+.classes #bardo {
+    background-image: url("../imagens/classes/bardo.svg");
+}
+
+.classes #bucaneiro {
+    background-image: url("../imagens/classes/bucaneiro.svg");
+}
+
+.classes #cavaleiro {
+    background-image: url("../imagens/classes/cavaleiro.svg");
+}
+
+.classes #caçador {
+    background-image: url("../imagens/classes/caçador.svg");
+}
+
+.classes #monstros {
+    background-image: url("../imagens/classes/monstro.svg");
+}
+
+.classes #clerigo {
+    background-image: url("../imagens/classes/clerigo.svg");
+}
+
+.classes #druida {
+    background-image: url("../imagens/classes/druida.svg");
+}
+
+.classes #guerreiro {
+    background-image: url("../imagens/classes/guerreiro.svg");
+}
+
+.classes #inventor {
+    background-image: url("../imagens/classes/inventor.svg");
+}
+
+.classes #ladino {
+    background-image: url("../imagens/classes/ladino.svg");
+}
+
+.classes #lutador {
+    background-image: url("../imagens/classes/lutador.svg");
+}
+
+.classes #louco {
+    background-image: url("../imagens/classes/medico.svg");
+}
+
+.classes #nobre {
+    background-image: url("../imagens/classes/nobre.svg");
+}
+
+.classes #paladino {
+    background-image: url("../imagens/classes/paladino.svg");
+}
+
+.classes #pistoleiro {
+    background-image: url("../imagens/classes/pistoleiro.svg");
+}
+
+.classes #retalhador {
+    background-image: url("../imagens/classes/retalhador.svg");
+}
