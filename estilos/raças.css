@@ -10,8 +10,9 @@ iframe{
 .raças_links {
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 30px;
 }
 
-.raças_links .circle{
-    margin: 20px;
-}

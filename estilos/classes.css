@@ -3,6 +3,8 @@
 .classes {
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
     gap: 30px;
-    margin: 50px 120px;
+    margin: auto;
 }
