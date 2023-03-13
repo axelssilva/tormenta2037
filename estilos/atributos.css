@@ -58,12 +58,23 @@ h2 {
 }
 
 table {
-    border: 2px solid black;
     border-collapse: collapse;
     text-align: center;
 }
 
 th, td {
-    border: 1px solid black;
     padding: 5px;
+}
+
+th{
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+.num{
+    text-align: center;
+}
+
+tbody > tr:nth-child(odd){
+    background-color: lightgray;
 }
